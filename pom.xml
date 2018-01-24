@@ -12,35 +12,14 @@
  
   <distributionManagement>
     <repository>
-      <id>nexus-releases</id>
-      <name>nexus-releases</name>
-      <url>http://localhost:8081/repository/maven-releases/</url>
+      <id>releases</id>
+      <url>http://localhost:8089/repository/maven-releases/</url>
     </repository>
     <snapshotRepository>
       <id>devopsPOC</id>
-      <url>http://localhost:8081/nexus/content/repositories/devopsPOC/</url>
+      <url>http://localhost:8089/nexus/content/repositories/devopsPOC/</url>
     </snapshotRepository>
   </distributionManagement>
-
-
-
-    <repositories>
-    <repository>
-<!--       <releases>
-        <enabled>false</enabled>
-        <updatePolicy>always</updatePolicy>
-        <checksumPolicy>warn</checksumPolicy>
-      </releases> -->
-      <snapshots>
-        <enabled>true</enabled>
-        <updatePolicy>never</updatePolicy>
-        <checksumPolicy>fail</checksumPolicy>
-      </snapshots>
-      <id>nexus-snapshots</id>
-      <url>http://localhost:8081/repository/maven-snapshots/</url>
-      <layout>default</layout>
-    </repository>
-  </repositories>
 
 
   <properties>
@@ -56,18 +35,21 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+           
     <dependency>
       <groupId>org.powermock</groupId>
       <artifactId>powermock-module-junit4</artifactId>
       <version>1.5.1</version>
       <scope>test</scope>
     </dependency>
+           
     <dependency>
       <groupId>org.powermock</groupId>
       <artifactId>powermock-api-mockito</artifactId>
       <version>1.5.1</version>
       <scope>test</scope>
     </dependency>
+           
     <dependency>
       <groupId>com.github.stefanbirkner</groupId>
       <artifactId>system-rules</artifactId>
