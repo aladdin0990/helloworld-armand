@@ -18,6 +18,8 @@
     <snapshotRepository>
       <id>devopsPOC</id>
       <url>http://localhost:8089/nexus/content/repositories/devopsPOC/</url>
+      <username>admin</username>
+      <password>admin123</password>
     </snapshotRepository>
   </distributionManagement>
 
