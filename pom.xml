@@ -13,11 +13,11 @@
   <distributionManagement>
     <repository>
       <id>nexus-releases</id>
-      <url>http://localhost:8081/repository/maven-releases/</url>
+      <url>http://localhost:8089/repository/maven-releases/</url>
     </repository>
     <snapshotRepository>
-      <id>dOps</id>
-      <url>http://localhost:8081/nexus/content/repositories/dOps/</url>
+      <id>devopsPOC</id>
+      <url>http://localhost:8089/nexus/content/repositories/devopsPOC/</url>
     </snapshotRepository>
   </distributionManagement>
 
