@@ -10,15 +10,15 @@
   <version>2.0-SNAPSHOT</version>
   <packaging>jar</packaging>
  
-  <distributionManagement>
+  <!--<distributionManagement>
     <repository>
       <id>nexus-releases</id>
       <url>http://localhost:8089/repository/maven-releases/</url>
-    </repository>
-    <snapshotRepository>
+    </repository> -->
+    <repository>
       <id>devopsPOC</id>
       <url>http://localhost:8089/nexus/content/repositories/devopsPOC/</url>
-    </snapshotRepository>
+    </repository>
   </distributionManagement>
 
 
