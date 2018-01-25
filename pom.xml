@@ -11,9 +11,6 @@
   <packaging>jar</packaging>
  
   <distributionManagement>
-           
-      <username>admin</username>
-      <password>admin123</password>
     <repository>
       <id>nexus-releases</id>
       <url>http://localhost:8089/repository/maven-releases/</url>
@@ -66,6 +63,12 @@
         </exclusion>
       </exclusions>
     </dependency>
+           
+    <dependency>
+             
+      <username>admin</username>
+      <password>admin123</password>
+           </dependency>
   </dependencies>
 
   <build>
